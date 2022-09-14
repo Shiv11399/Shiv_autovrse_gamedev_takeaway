@@ -59,6 +59,5 @@ public class ItemWorld : MonoBehaviour
         float varZ = UnityEngine.Random.Range(1, 3);
         var dropPos = new Vector3(position.x + varX, position.y, position.z + varZ);
         ItemWorld itemWorld = SpawnItem(item, dropPos);
-
     }
 }
